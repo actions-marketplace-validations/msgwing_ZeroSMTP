@@ -73,7 +73,7 @@ jobs:
           echo "::error::Pole 'Which package under packages/ to publish' zostalo na wartosci domyslnej. Wybierz zerosmtp-check albo zerosmtp-mcp i uruchom ponownie."
           exit 1
 
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7.0.1
 
       - uses: actions/setup-node@v7
         with:
@@ -178,7 +178,7 @@ jobs:
       run:
         working-directory: packages/zerosmtp-mcp
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7.0.1
 
       - name: Pobierz mcp-publisher
         run: |
