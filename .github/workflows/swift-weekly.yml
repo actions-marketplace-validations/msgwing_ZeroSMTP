@@ -32,7 +32,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7.0.1
       - uses: swift-actions/setup-swift@v2
         with:
           # swift-actions/setup-swift@v2.4.0's newest installable toolchain is
